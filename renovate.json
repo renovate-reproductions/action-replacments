@@ -7,6 +7,16 @@
       "description": "Use `semver-partial` for action updates",
       "matchDepTypes": ["action"],
       "versioning": "semver-partial"
+    },
+    {
+      "matchCurrentVersion": ">=4",
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "matchPackageNames": [
+        "actions/attest-build-provenance"
+      ],
+      "replacementName": "actions/attest"
     }
   ]
 }
