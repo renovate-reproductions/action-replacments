@@ -9,7 +9,6 @@
       "versioning": "semver-partial"
     },
     {
-      "matchCurrentVersion": ">=4",
       "matchDatasources": [
         "github-tags"
       ],
